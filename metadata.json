@@ -1,0 +1,6 @@
+{
+  "name": "Overview Calculator",
+  "description": "Calcalator built into the Overview",
+  "uuid": "OverviewCalculator@IvanBez42.github.com",
+  "shell-version": ["48"]
+}
