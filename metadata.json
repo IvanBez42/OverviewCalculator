@@ -1,6 +1,8 @@
 {
   "name": "Overview Calculator",
-  "description": "Calcalator built into the Overview",
+  "description": "Calcalator built into the Overview, select answer to copy to clipboard.",
   "uuid": "OverviewCalculator@IvanBez42.github.com",
-  "shell-version": ["48"]
+  "url": "https://github.com/IvanBez42/OverviewCalculator",
+  "shell-version": ["48"],
+  "version": 1
 }
