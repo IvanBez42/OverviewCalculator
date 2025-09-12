@@ -8,6 +8,6 @@ This project will be actively maintained.
 
 This project requires either [bc](https://man.archlinux.org/man/bc.1) or [qalc](https://man.archlinux.org/man/qalc.1.en) to compute the mathematical expressions. The program uses `qalc` by default but falls back to `bc`.
 
-- `qalc` is more powerful, includes better decimal handling, currency conversion and unit conversion, but is slightly slower.
+- `qalc` is more powerful, includes better decimal handling and more operators.
 - `bc` is included by default in a majority of Linux distros.
   This project will be actively maintained.

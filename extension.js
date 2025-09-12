@@ -78,6 +78,7 @@ class SearchCalculator {
     /* Format search terms */
     const query = (terms ?? []).join(" ").trim();
     let expr = query.startsWith("=") ? query.slice(1) : query;
+    expr = expr.replace(/[^0-9+\-*/()^.% ]/g, "");
     expr = expr.trim();
     if (!expr) return Promise.resolve([]);
 
